@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: RGB(144,230,249,0.5);; */
+    /* background-color: RGB(210,167,0,0.3); */
+    /* background-color: #cfd8dc  ; */
+    background: linear-gradient(0.25turn,rgb(98,159,121,0.55),rgb(78,122,181,0.74));
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.container{
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(0.25turn,rgb(98,159,121,0.9),rgb(78,122,181,0.9));
+    background: white;
+    max-width: 50%;
+    min-height: 300px;
+    margin: auto;
+    display: flow-root;    
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+.message{
+    width: 40%;
+    padding: 5px;
+    margin: 5px 3px;
+    color: #333;
+    font-size: 10px;
+    font-weight: 900;
+}
+.left{
+    background:rgb(78,122,181,0.5);
+    border: 2px solid rgb(78,122,181,1);
+    border-radius: 5px;
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+    background:rgb(98,159,121,0.5);
+    border: 2px solid rgb(98,159,121,1);
+    border-radius: 5px;
+}
+.center{
+    text-align: center;
+    margin: auto;
+    clear: both;
+    padding: 3px;
+    font-size: 8px;
+    background:rgb(155,155,150,0.5);
+    width: 98.5%;
+    border-top :1px solid rgb(155,155,150,1);
+    border-bottom :1px solid rgb(155,155,150,1);
+    margin-bottom: 2px;
+    
+}
+
+.send{
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(0.25turn,rgb(98,159,121,0.9),rgb(78,122,181,0.9));
+    border-top: 0;
+}
+.send input{
+    width: 78.6%;
+    border-radius: 2px;
+    border: 1px solid grey;
+    padding: 2px;
+}
+.send button{
+    cursor: pointer;
+    border: 0.5px solid grey;
+    border-radius: 2px;
+    width: 19.7%;
+    background-color: rgba(98,159,121,0.9);
+    color: whitesmoke;
+}
+.title{
+    background-color: linear-gradient(0.25turn,rgb(79, 123, 200),rgb(98, 159, 100));
+    background-image: linear-gradient(0.25turn,rgb(78, 122, 200),rgb(98, 159, 100));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 1rem;
+}
